@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Price List</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header__container">
+                <div class="header__logo">
+                    <img src="/img/logo.png" alt="">
+                    <div class="header__logo-text">ITFlexClinic</div>
+                </div>
+                <ul class="header__nav">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/pages/services/index.html">Services</a></li>
+                    <li><a href="/pages/price-list/index.html">Price List</a></li>
+                    <li><a href="/pages/online-appointment/index.html">Appointment</a></li>
+                </ul>
+                <a href="/pages/online-appointment/index.html" class="header__button">
+                    Get online consultation
+                </a>
+            </div>
+        </div>
+        <main>
+            <div class="price">
+                <div class="price__container">
+                    <div class="price__title">
+                        Choose doctor speciality
+                    </div>
+                    <select id="select" style="background-color: #ccb770; color: #a32c2c; font-family: 'Press Start 2P';" class="form-select price__select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected hidden>Choose your doctor</option>
+                        <option value="0">Gynecology</option>
+                        <option value="1">Urology</option>
+                        <option value="2">Endocrinology</option>
+                        <option value="3">Neuropatology</option>
+                        <option value="4">Dermatology</option>
+                        <option value="5">Uzi diagnostics</option>
+                        <option value="6">Physiotherapy</option>
+                        <option value="7">Pregnancy management program</option>
+                        <option value="8">Day hospital</option>
+                        <option value="9">Analysis at home</option>
+                        <option value="10">Calling a family doctor at home</option>
+                        <option value="11">Sanitary book</option>
+                    </select>
+                    <div class="price__info">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__right">ITFlexClinic. &copy; All Right Reserved.</div>
+            <div class="footer__year">
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
